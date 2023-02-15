@@ -1,0 +1,2 @@
+#define BLOBCORE_API __declspec(dllexport)
+#define BLOBCORE_API __declspec(dllimport)

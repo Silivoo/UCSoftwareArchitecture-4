@@ -21,24 +21,24 @@
     <ClInclude Include="framework.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BlobLibrary.h">
+    <ClInclude Include="Blob_Applicatoin1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="UI.h">
+    <ClInclude Include="MyApplication1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BlobExports.h">
+    <ClInclude Include="Blob_Applicatoin1Exports.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BlobLibrary.cpp">
+    <ClCompile Include="Blob_Applicatoin1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="UI.cpp">
+    <ClCompile Include="MyApplication1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

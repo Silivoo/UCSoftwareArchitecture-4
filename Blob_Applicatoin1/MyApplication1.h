@@ -1,13 +1,13 @@
 #pragma once
 
-
-#include <LinkedList.h>
+#include "../Blob_LinkedList/LinkedList.h"
+#include "Blob_Applicatoin1.h"
 
 
 /// <summary>
 /// This class does something entirely different thatn MyAppplication2
 /// </summary>
-class MyApplication1
+class BLOBAPPLICATOIN1_API MyApplication1
 {
 public:
 	MyApplication1();
@@ -16,7 +16,6 @@ public:
 	void DoWork();
 
 private:
-	ArrayBasedLinkedList * m_arrayBasedLinkedList;
+	ArrayBasedLinkedList* m_arrayBasedLinkedList;
 
 };
-

@@ -1,0 +1,2 @@
+#define BLOBUI_API __declspec(dllexport)
+#define BLOBUI_API __declspec(dllimport)

@@ -1,7 +1,7 @@
 
 #include "LinkedList.h"
 #include <iostream>
-#include "BI.h"
+#include "../Blob_Core/BI.h"
 using namespace std;
 
 ILinkedList::ILinkedList() : m_count(0)

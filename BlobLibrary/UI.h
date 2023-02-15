@@ -2,8 +2,8 @@
 #include "BlobExports.h"
 
 
-#include <MyApplication1.h>
-#include <MyApplication2.h>
+#include "../Blob_Applicatoin1/MyApplication1.h"
+#include "../Blob_Application2/MyApplication2.h"
 
 /// <summary>
 /// This class has the UI functionality for our Application

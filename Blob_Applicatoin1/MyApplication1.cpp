@@ -1,6 +1,6 @@
-#include <MyApplication1.h>
+#include "MyApplication1.h"
 
-#include <BI.h>
+#include "../Blob_Core/BI.h"
 
 MyApplication1::MyApplication1() : m_arrayBasedLinkedList(nullptr)
 {
@@ -19,6 +19,6 @@ void MyApplication1::DoWork()
 
 
 	m_arrayBasedLinkedList->add(11);
-	
+
 
 }

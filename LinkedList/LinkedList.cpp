@@ -1,21 +1,21 @@
-// Core.cpp : Defines the exported functions for the DLL.
+// LinkedList.cpp : Defines the exported functions for the DLL.
 //
 
 #include "framework.h"
-#include "Core.h"
+#include "LinkedList.h"
 
 
 // This is an example of an exported variable
-int nCore=0;
+LINKEDLIST_API int nLinkedList=0;
 
 // This is an example of an exported function.
-int fnCore(void)
+LINKEDLIST_API int fnLinkedList(void)
 {
     return 0;
 }
 
 // This is the constructor of a class that has been exported.
-CCore::CCore()
+CLinkedList::CLinkedList()
 {
     return;
 }
